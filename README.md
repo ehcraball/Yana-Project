@@ -8,11 +8,10 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   - Aller dans le dossier backend
   - Créer un fichier .env à la racine de ce dossier
   - Copier-coller le contenu de .env.example dans .env et ajuster si besoin (mot de passe, etc.)
-3. Lancer les services avec Docker
-  Assurez-vous d’avoir Docker et Docker Compose installés.
-  Depuis la racine du projet (là où se trouve docker-compose.yml), exécutez :
-  docker compose up --build
-  Le backend sera accessible à l’adresse : http://localhost:8000
+3. Lancer les services avec Docker  
+  Assurez-vous d’avoir Docker et Docker Compose installés.  
+  Depuis la racine du projet (là où se trouve docker-compose.yml), exécutez : docker compose up --build  
+  Le backend sera accessible à l’adresse : http://localhost:8000  
 4. Configuration du frontend (Expo)
 
   a. Mettre à jour l'URL de l’API  
