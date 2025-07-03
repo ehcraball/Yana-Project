@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: yana_user
+      POSTGRES_PASSWORD: yana_pass
+      POSTGRES_DB: yana_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8001:8001"
+    command: uvicorn main:app --host 0.0.0.0 --port 8001
+    volumes:
+      - ./backend:/app
+    environment:
+    - DATABASE_URL=postgresql+asyncpg://yana_user:yana_pass@db:5432/yana_db
+    depends_on:
+      - db
+    restart: always
+
+  frontend:
+    build:
+      context: ./Aboh-app
+    ports:
+      - "19000:19000"
+      - "19001:19001"
+      - "8081:8081"
+    volumes:
+      - ./Aboh-app:/app
+    stdin_open: true
+    tty: true
+    restart: always
+
+volumes:
+  postgres_data:

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "concentration",
+    "label": "Comment as-tu ressenti ta concentration aujourd’hui ?",
+    "type": "scale",
+    "minLabel": "Très difficile",
+    "maxLabel": "Très bonne",
+    "scale": 5
+  },
+  {
+    "id": "anxiete",
+    "label": "Quel a été ton niveau d’anxiété aujourd’hui ?",
+    "type": "scale",
+    "minLabel": "Très bas",
+    "maxLabel": "Très élevé",
+    "scale": 5
+  },
+  {
+    "id": "emotions",
+    "label": "As-tu eu du mal à gérer tes émotions ?",
+    "type": "scale",
+    "minLabel": "Pas du tout",
+    "maxLabel": "Beaucoup",
+    "scale": 5
+  },
+  {
+    "id": "humeur",
+    "label": "Comment décrirais-tu ton humeur globale aujourd’hui ?",
+    "type": "scale",
+    "minLabel": "Très négative",
+    "maxLabel": "Très positive",
+    "scale": 5
+  },
+  {
+    "id": "objectifs",
+    "label": "As-tu atteint ce que tu voulais faire aujourd’hui ?",
+    "type": "scale",
+    "minLabel": "Pas du tout",
+    "maxLabel": "Totalement",
+    "scale": 5
+  },
+  {
+    "id": "sommeil",
+    "label": "As-tu bien dormi la nuit dernière ?",
+    "type": "scale",
+    "minLabel": "Très mal",
+    "maxLabel": "Très bien",
+    "scale": 5
+  },
+  {
+    "id": "commentaire",
+    "label": "Un mot ou une phrase pour résumer ta journée (optionnel)",
+    "type": "text",
+    "placeholder": "Ex : Journée calme mais un peu stressante ce soir",
+    "optional": true
+  }
+]

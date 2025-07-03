@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Focus 10",
+    "description": "Travaille sur une tâche sans distraction pendant 10 minutes",
+    "points": 10
+  },
+  {
+    "id": 2,
+    "title": "Marche Express",
+    "description": "Fais une marche rapide de 5 minutes pour t’aérer l’esprit",
+    "points": 5
+  },
+  {
+    "id": 3,
+    "title": "Liste 3 tâches",
+    "description": "Écris trois choses que tu veux accomplir aujourd’hui",
+    "points": 8
+  },
+  {
+    "id": 4,
+    "title": "Espace propre",
+    "description": "Range un petit espace autour de toi (bureau, lit, etc.)",
+    "points": 7
+  },
+  {
+    "id": 5,
+    "title": "Pause respiration",
+    "description": "Fais 3 respirations profondes en fermant les yeux",
+    "points": 4
+  },
+  {
+    "id": 6,
+    "title": "Compliment miroir",
+    "description": "Regarde-toi dans un miroir et dis-toi quelque chose de positif",
+    "points": 6
+  },
+  {
+    "id": 7,
+    "title": "Check-in émotion",
+    "description": "Prends 1 minute pour nommer ce que tu ressens",
+    "points": 5
+  },
+  {
+    "id": 8,
+    "title": "Une victoire",
+    "description": "Note une chose que tu as réussie récemment, même petite",
+    "points": 6
+  },
+  {
+    "id": 9,
+    "title": "Digital Detox",
+    "description": "Éloigne ton téléphone pendant 15 minutes",
+    "points": 9
+  },
+  {
+    "id": 10,
+    "title": "Hydratation",
+    "description": "Bois un verre d’eau et respire profondément",
+    "points": 3
+  }
+]
