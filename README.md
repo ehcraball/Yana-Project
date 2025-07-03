@@ -26,7 +26,7 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   L’application mobile se lancera automatiquement.
 
 
-🛠️ Dépendances nécessaires
+🛠️ Dépendances nécessaires \n
   Backend
   - FastAPI
   - SQLAlchemy
