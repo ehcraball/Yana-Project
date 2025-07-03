@@ -1,4 +1,4 @@
-YANA – You Are Not Alone
+YANA : You Are Not Alone
 Une application mobile de soutien et d’organisation personnelle, basée sur FastAPI (backend) et React Native via Expo (frontend).
 🚀 Démarrage rapide
 1. Cloner le projet
