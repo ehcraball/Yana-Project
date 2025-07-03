@@ -42,7 +42,6 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   - Async Storage
   - Lottie
   - Toast, etc.
-  - 
   ✅ À vérifier avant de lancer
   - Docker fonctionne et les conteneurs se lancent correctement
   - L’adresse IP utilisée dans api.tsx est bonne
