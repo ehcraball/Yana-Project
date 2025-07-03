@@ -14,16 +14,16 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   docker compose up --build
   Le backend sera accessible à l’adresse : http://localhost:8000
 4. Configuration du frontend (Expo)
-  a. Mettre à jour l'URL de l’API
-  Dans Aboh-app/components/api.tsx, remplacez l'URL de base par votre IP locale ou publique (celle de la machine qui héberge le backend) :
-  export const API_URL = 'http://192.168.X.X:8000';
-  b. Installer les dépendances
-  cd Aboh-app
-  npm install
-  c. Lancer Expo
-  npx expo start
-  Scannez le QR code affiché avec l’application Expo Go sur votre téléphone.
-  L’application mobile se lancera automatiquement.
+  a. Mettre à jour l'URL de l’API  
+  Dans Aboh-app/components/api.tsx, remplacez l'URL de base par votre IP locale ou publique (celle de la machine qui héberge le backend) :  
+  export const API_URL = 'http://192.168.X.X:8000';  
+  b. Installer les dépendances  
+  cd Aboh-app  
+  npm install  
+  c. Lancer Expo 
+  npx expo start  
+  Scannez le QR code affiché avec l’application Expo Go sur votre téléphone.  
+  L’application mobile se lancera automatiquement.  
 
 
 🛠️ Dépendances nécessaires  
