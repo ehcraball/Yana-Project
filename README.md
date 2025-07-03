@@ -34,7 +34,7 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   - python-dotenv
   - python-multipart
   - email-validator  
-  Frontend
+  Frontend  
   - Expo SDK 53
   - React Native 0.79
   - React Navigation
