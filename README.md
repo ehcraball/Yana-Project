@@ -2,7 +2,7 @@ YANA : You Are Not Alone
 Une application mobile de soutien et d’organisation personnelle, basée sur FastAPI (backend) et React Native via Expo (frontend).  
 🚀 Démarrage rapide
 1. Cloner le projet
-  git clone [https://github.com/votre-utilisateur/yana-project.git](https://github.com/ehcraball/Yana-Project.git)
+  git clone https://github.com/ehcraball/Yana-Project.git  
   cd yana-project
 2. Configuration du backend
   - Aller dans le dossier backend
