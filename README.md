@@ -33,7 +33,7 @@ Une application mobile de soutien et d’organisation personnelle, basée sur Fa
   - asyncpg
   - python-dotenv
   - python-multipart
-  - email-validator
+  - email-validator  
   Frontend
   - Expo SDK 53
   - React Native 0.79
